@@ -1,0 +1,26 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+/*.php
+/readme.html
+/license.txt
+
+# Local configuration
+/wp-config.php
+/.htaccess
+
+# WordPress content - ignore everything by default
+/wp-content/*
+
+# Track our custom theme
+!/wp-content/themes/
+wp-content/themes/*
+!/wp-content/themes/watchpspn/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
