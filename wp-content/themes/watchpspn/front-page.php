@@ -19,7 +19,7 @@
     <div class="pspn-content">
         <img class="pspn-logo" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/pspn-logo.svg' ); ?>"
     alt="PSPN">
-        <p>The Worldwide Leader in Puppet Sports</p>
+        <p class="pspn-tagline">The Worldwide Leader in Puppet Sports</p>
 
         <nav class="pspn-socials" aria-label="Watch PSPN social links">
     <a href="https://www.instagram.com/watchpspn/" target="_blank" rel="noopener noreferrer" aria-label="Watch PSPN on Instagram">
@@ -38,6 +38,10 @@
         <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/icons/youtube.svg' ); ?>" alt="">
     </a>
 </nav>
+
+<p class="pspn-copyright">
+            &copy; <?php echo esc_html( date( 'Y' ) ); ?> PSPN. All Rights Probably Reserved.
+        </p>
     </div>
 </main>
 
