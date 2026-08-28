@@ -17,8 +17,27 @@
     <div class="pspn-overlay"></div>
 
     <div class="pspn-content">
-        <h1>Watch PSPN</h1>
+        <img class="pspn-logo" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/pspn-logo.svg' ); ?>"
+    alt="PSPN">
         <p>The Worldwide Leader in Puppet Sports</p>
+
+        <nav class="pspn-socials" aria-label="Watch PSPN social links">
+            <a href="#" aria-label="Instagram">
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/icons/instagram.svg' ); ?>" alt="">
+            </a>
+
+            <a href="#" aria-label="TikTok">
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/icons/tiktok.svg' ); ?>" alt="">
+            </a>
+
+            <a href="#" aria-label="X">
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/icons/x.svg' ); ?>" alt="">
+            </a>
+
+            <a href="#" aria-label="YouTube">
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/icons/youtube.svg' ); ?>" alt="">
+            </a>
+        </nav>
     </div>
 </main>
 
