@@ -43,7 +43,7 @@ body {
     justify-content: center;
     text-align: center;
     color: #fff;
-    padding: 2rem;
+    padding: 48vh 2rem 2rem;
     box-sizing: border-box;
 }
 
@@ -125,18 +125,22 @@ body {
 }
 
 @media (max-width: 600px) {
+    .pspn-overlay {
+        background: rgba(0, 0, 0, 0.2);
+    }
+
     .pspn-content {
         justify-content: flex-start;
-        padding-top: 60vh;
+        padding-top: 72vh;
         transform: none;
     }
 
     .pspn-logo {
-        width: min(42vw, 300px);
+        width: min(38vw, 260px);
     }
 
     .pspn-tagline {
-        margin-top: 1.1rem;
+        margin-top: 0.9rem;
         font-size: 0.78rem;
         letter-spacing: 0.07em;
         line-height: 1.35;
@@ -144,8 +148,14 @@ body {
     }
 
     .pspn-socials {
-        margin-top: 1.6rem;
-        gap: 2.1rem;
+        margin-top: 1.4rem;
+        gap: 2rem;
+    }
+
+    .pspn-socials svg,
+    .pspn-socials img {
+        width: 24px;
+        height: 24px;
     }
 
     .pspn-copyright {
