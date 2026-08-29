@@ -7,8 +7,8 @@ function watchpspn_enqueue_styles() {
         'watchpspn-style',
         get_stylesheet_uri(),
         array(),
-        filemtime( $style_path )
+        filemtime($style_path)
     );
 }
 
-add_action( 'wp_enqueue_scripts', 'watchpspn_enqueue_styles' );
+add_action('wp_enqueue_scripts', 'watchpspn_enqueue_styles');
